@@ -4,6 +4,7 @@ shopping_list = {
     'spozywczy': ['mleko', 'ser', 'jajka']
 }
 count = 0
+print("LISTA ZAKUPÓW")
 for shop, products in shopping_list.items():
     print(f"Idę do {shop.capitalize()}, kupuję tu następujące rzeczy: {[i.capitalize() for i in products]}")
     count += len(products)
